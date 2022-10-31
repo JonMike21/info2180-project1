@@ -1,7 +1,7 @@
 /* Add your CSS to this file */
 body {
     display: grid;
-    grid-template-rows: 30px 250px 450px 350px 400px 320px 50px;
+    grid-template-rows: 30px 250px 450px 350px 400px 300px 50px;
     
     
     grid-row-gap: 25px;
