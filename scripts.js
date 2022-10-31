@@ -10,7 +10,7 @@ window.onload= ()=>{
   btn.onclick = (event)=>{
     event.preventDefault();
     if (testmail.test(mail.value.toLowerCase()) != 0 && mail.value.length){
-      message.innerHTML = "Thank you! Your email address ${mail.value} has been added to our mailing list!";
+      message.innerHTML = `Thank you! Your email address ${mail.value} has been added to our mailing list!`;
     }
     else{
       message.innerHTML = "Please enter a valid email address.";
